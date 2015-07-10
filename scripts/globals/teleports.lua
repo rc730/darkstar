@@ -530,6 +530,8 @@ function toExplorerMoogle(player,zone)
 		player:setPos(14.67, -14.56, 66.69, 96, zone);	-- Selbina
 	elseif(zone == 249) then
 		player:setPos(2.87, -4, 71.95, 0, zone);		-- Mhaura
+        elseif(zone == 250) then
+		player:setPos(-4, -2, 14, 66, zone);		-- Kazham
 	end
 end;
 

@@ -4,8 +4,8 @@
 -- Experience point bonus
 -----------------------------------------
 -- Bonus: +50%
--- Duration: 720 min
--- Max bonus: 3000 exp
+-- Duration: 1000 min
+-- Max bonus: 3500 exp
 -----------------------------------------
 
 require("scripts/globals/status");

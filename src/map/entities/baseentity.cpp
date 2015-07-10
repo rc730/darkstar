@@ -35,8 +35,8 @@ CBaseEntity::CBaseEntity()
 	PBCNM = nullptr;
 	PInstance = nullptr;
 
-	speed    = 40 + map_config.speed_mod;
-	speedsub = 40 + map_config.speed_mod;
+	speed    = 65 + map_config.speed_mod;
+	speedsub = 60 + map_config.speed_mod;
 
 	animationsub = 0;
 	animation    = ANIMATION_NONE;

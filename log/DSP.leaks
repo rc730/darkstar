@@ -1,0 +1,230 @@
+
+Memory manager: Memory leaks found at 2015/04/05 23h23m44s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02230084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 5 address 0x022300A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x022300E4
+
+Memory manager: Memory leaks found at 2015/04/30 07h37m33s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02840084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x028400A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x028400E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x02C3CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02C46E0C
+
+Memory manager: Memory leaks found at 2015/04/30 08h25m10s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 17 address 0x021489C4
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x02152A5C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x02152A7C
+
+Memory manager: Memory leaks found at 2015/04/30 08h25m49s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 17 address 0x023989C4
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x023A2A5C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x023A2A7C
+
+Memory manager: Memory leaks found at 2015/04/30 08h25m56s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 17 address 0x01FB89C4
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x01FC2A5C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x01FC2A7C
+
+Memory manager: Memory leaks found at 2015/04/30 08h26m02s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 17 address 0x021089C4
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x02112A5C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x02112A7C
+
+Memory manager: Memory leaks found at 2015/04/30 20h56m11s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 13 address 0x01EC2A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x01EC2A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x01EC2A9C
+
+Memory manager: Memory leaks found at 2015/05/07 06h40m48s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 12 address 0x01E52A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x01E52A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x01E52A9C
+
+Memory manager: Memory leaks found at 2015/05/07 06h41m36s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 12 address 0x01E72A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x01E72A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x01E72A9C
+
+Memory manager: Memory leaks found at 2015/05/07 06h41m56s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 12 address 0x022A2A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x022A2A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x022A2A9C
+
+Memory manager: Memory leaks found at 2015/05/07 11h14m44s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 12 address 0x02152A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x02152A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x02152A9C
+
+Memory manager: Memory leaks found at 2015/05/07 11h14m47s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 12 address 0x02152A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x02152A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x02152A9C
+
+Memory manager: Memory leaks found at 2015/05/07 11h14m48s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 12 address 0x02152A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x02152A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x02152A9C
+
+Memory manager: Memory leaks found at 2015/05/07 11h14m49s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 12 address 0x00F02A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x00F02A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x00F02A9C
+
+Memory manager: Memory leaks found at 2015/06/09 19h45m31s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02140084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x021400A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x021400E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0253CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02546E0C
+
+Memory manager: Memory leaks found at 2015/06/09 20h30m10s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02010084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x020100A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x020100E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0240CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02416E0C
+
+Memory manager: Memory leaks found at 2015/06/09 20h42m48s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02250084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x022500A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x022500E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0264CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02656E0C
+
+Memory manager: Memory leaks found at 2015/06/09 21h06m51s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x01FF0084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x01FF00A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x01FF00E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x023ECE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x023F6E0C
+
+Memory manager: Memory leaks found at 2015/06/09 21h54m26s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x01FC0084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x01FC00A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x01FC00E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x023BCE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x023C6E0C
+
+Memory manager: Memory leaks found at 2015/06/10 16h56m08s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x024A0084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x024A00A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x024A00E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0289CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x028A6E0C
+
+Memory manager: Memory leaks found at 2015/06/11 00h46m29s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x01F40084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x01F400A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x01F400E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0233CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02346E0C
+
+Memory manager: Memory leaks found at 2015/06/11 14h49m09s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02100084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x021000A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x021000E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x024FCE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02506E0C
+
+Memory manager: Memory leaks found at 2015/06/13 15h24m01s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x01F60084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x01F600A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x01F600E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0235CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02366E0C
+
+Memory manager: Memory leaks found at 2015/06/17 16h48m44s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x01FD0084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x01FD00A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x01FD00E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x023CCE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x023D6E0C
+
+Memory manager: Memory leaks found at 2015/06/17 17h01m33s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x021B0084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x021B00A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x021B00E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x025ACE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x025B6E0C
+
+Memory manager: Memory leaks found at 2015/06/18 11h41m09s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02320084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x023200A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x023200E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0271CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02726E0C
+
+Memory manager: Memory leaks found at 2015/06/18 16h04m19s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 16 address 0x01EA2A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x01EA2A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x01EA2A9C
+
+Memory manager: Memory leaks found at 2015/06/19 15h30m42s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02480084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x024800A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x024800E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0287CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02886E0C
+
+Memory manager: Memory leaks found at 2015/06/24 19h48m50s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02420084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x024200A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x024200E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0281CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02826E0C
+
+Memory manager: Memory leaks found at 2015/06/24 22h01m24s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02270084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x022700A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x022700E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0266CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02676E0C
+
+Memory manager: Memory leaks found at 2015/06/24 22h03m44s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02430084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x024300A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x024300E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0282CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02836E0C
+
+Memory manager: Memory leaks found at 2015/06/27 07h12m19s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 16 address 0x023B2A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x023B2A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x023B2A9C
+
+Memory manager: Memory leaks found at 2015/06/28 15h59m18s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x023E0084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x023E00A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x023E00E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x027DCE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x027E6E0C
+
+Memory manager: Memory leaks found at 2015/06/30 00h53m19s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 16 address 0x01E62A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x01E62A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x01E62A9C
+
+Memory manager: Memory leaks found at 2015/06/30 00h53m47s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 16 address 0x01EB2A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x01EB2A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x01EB2A9C
+
+Memory manager: Memory leaks found at 2015/06/30 15h58m10s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x02490084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x024900A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x024900E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x0288CE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02896E0C
+
+Memory manager: Memory leaks found at 2015/06/30 16h21m35s.
+0001 : g:\server\darkstar\src\map\map.cpp line 1189 size 5 address 0x027F0084
+0002 : g:\server\darkstar\src\map\map.cpp line 1193 size 9 address 0x027F00A4
+0003 : g:\server\darkstar\src\map\map.cpp line 1261 size 10 address 0x027F00E4
+0004 : g:\server\darkstar\src\common\strlib.cpp line 1004 size 1025 address 0x02BECE14
+0005 : g:\server\darkstar\src\common\sql.cpp line 75 size 1008 address 0x02BF6E0C
+
+Memory manager: Memory leaks found at 2015/07/02 21h12m18s.
+0001 : g:\server\darkstar\src\login\login.cpp line 338 size 16 address 0x01F82A5C
+0002 : g:\server\darkstar\src\login\login.cpp line 350 size 10 address 0x01F82A7C
+0003 : g:\server\darkstar\src\login\login.cpp line 391 size 11 address 0x01F82A9C

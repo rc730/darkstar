@@ -529,25 +529,25 @@ function getGoVregimeReward(regimeid)
                 end
             elseif (regimeid > 622 and regimeid <= 632) then
                 if (regimeid == 623) then
-                    return 2170;
+                    return100;
                 elseif (regimeid == 624) then
-                    return 2250;
+                    return 100;
                 elseif (regimeid == 625) then
-                    return 2250; -- Missing info on wiki
+                    return 100; -- Missing info on wiki
                 elseif (regimeid == 626) then -- Zeruhn p1
                     return 90;
                 elseif (regimeid == 627) then
                     return 110;
                 elseif (regimeid == 628) then
-                    return 1640;
+                    return 100;
                 elseif (regimeid == 629) then
-                    return 1600;
+                    return 100;
                 elseif (regimeid == 630) then
-                    return 1700;
+                    return 100;
                 elseif (regimeid == 631) then -- KRT p1
-                    return 380;
+                    return 1000;
                 elseif (regimeid == 632) then
-                    return 420;
+                    return 1000;
                 end
             elseif (regimeid > 632 and regimeid <= 642) then
                 if (regimeid == 633) then

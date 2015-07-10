@@ -1,0 +1,44 @@
+4/30/2015 8:32:33 AM	 [INFORMATION] 	############################################ MONITORING SESSION START ############################################
+4/30/2015 8:32:33 AM	 [INFORMATION] 	INITIATING A NEW MONITORING SESSION
+4/30/2015 8:32:33 AM	 [INFORMATION] 	SYSTEM INFORMATION: 
+	 - OS INFORMATION: Microsoft Windows NT 6.1.7601 Service Pack 1
+	 - CLR VERSION: 2.0.50727.5485
+	 - RESTARTER VERSION: 2.0.0.0
+	 - RESTARTER EXECUTABLE PATH: C:\Users\Duh-huh\Desktop
+
+4/30/2015 8:32:33 AM	 [INFORMATION] 	MONITORING SESSION PARAMETERS: 
+	 - PROCESS = G:\server\darkstar\DSConnect-server.exe
+	 - PID = 1812
+	 - Monitor Interval = 5 Seconds
+	 - Kill if Unresponsive = False
+	 - Unresponsive Intervals = 5
+	 - Enable Restart = True
+	 - Log to File = True
+	 - Logfile = G:\server\darkstar\log\wtf.log.txt
+	 - Warning Sound = False
+	 - Soundfile = 
+	 - Execute External Script = False
+	 - External Script File = 
+	 - Keep Restarter Minimized = False
+	 - Startup Parameters = 
+	 - Working Directory = 
+	 - Window Style = Normal
+	 - Force Window Focus = False
+
+4/30/2015 8:32:33 AM	 [WARNING] 	MONITOR INTERVAL SET TO LESS THAN 60 SECONDS! THIS IS NOT A RECOMMENDED CONFIGURATION!
+4/30/2015 8:32:33 AM	 [INFORMATION] 	MONITORING STARTED
+4/30/2015 8:32:38 AM	 [ERROR] 	POLLCOUNT: 0, MONITORED PROCESS IS NOT RUNNING!
+4/30/2015 8:32:38 AM	 [INFORMATION] 	RESTARTING PROCESS: G:\server\darkstar\DSConnect-server.exe
+4/30/2015 8:32:38 AM	 [INFORMATION] 	SUCCESSFULLY RESTARTED: G:\server\darkstar\DSConnect-server.exe
+4/30/2015 8:32:38 AM	 [INFORMATION] 	PID FOR MONITORED PROCESS CHANGED TO 5800
+4/30/2015 8:32:38 AM	 [INFORMATION] 	UNRESPONSIVE COUNT RESET FROM 0 TO 0
+4/30/2015 8:32:38 AM	 [INFORMATION] 	RESTART COUNT FOR THIS MONITORING SESSION SET TO  1
+4/30/2015 8:32:39 AM	 [WARNING] 	POLLCOUNT: 0 - FAILED TO COLLECT ALL DATA. WILL TRY AGAIN AT NEXT POLL INTERVAL
+4/30/2015 8:32:39 AM	 [ERROR] 	ERROR MESSAGE: Not found 
+4/30/2015 8:32:39 AM	 [WARNING] 	POLLCOUNT: 0 - FAILED TO COLLECT ALL DATA. WILL TRY AGAIN AT NEXT POLL INTERVAL
+4/30/2015 8:32:39 AM	 [ERROR] 	ERROR MESSAGE: Not found 
+4/30/2015 8:32:40 AM	 [WARNING] 	POLLCOUNT: 1 - FAILED TO COLLECT ALL DATA. WILL TRY AGAIN AT NEXT POLL INTERVAL
+4/30/2015 8:32:40 AM	 [ERROR] 	ERROR MESSAGE: Not found 
+4/30/2015 8:32:40 AM	 [INFORMATION] 	MONITORING STOPPED BY USER
+4/30/2015 8:32:40 AM	 [INFORMATION] 	SUMMARY:  PollCount=1, RestartCount=1, UnresponsiveCount=0
+4/30/2015 8:32:40 AM	 [INFORMATION] 	############################################ MONITORING SESSION END ############################################
