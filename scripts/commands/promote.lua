@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: promote
--- auth: ZeDingo :: Modded by atom0s.
 -- desc: Promotes the player to a new GM level.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "si"
 };
 

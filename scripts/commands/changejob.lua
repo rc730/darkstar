@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: changejob
--- auth: <Unknown> :: Modded by atom0s.
 -- desc: Changes the players current job.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "si"
 };
 

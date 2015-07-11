@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: setweather
--- auth: <Unknown> :: Modded by atom0s.
 -- desc: Sets the current weather for the current zone.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 6,
+    permission = 1,
     parameters = "s"
 };
 

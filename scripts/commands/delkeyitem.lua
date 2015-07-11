@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: @delkeyitem
--- auth: <Unknown>, modified by TeoTwawki
 -- desc: Deletes the given key item from the player.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "is"
 };
 

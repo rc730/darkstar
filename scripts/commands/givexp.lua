@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: @givexp <amount> <player>
--- auth: atom0s (as "giveexperience"), modified by TeoTwawki
 -- desc: Gives the GM or target player experience points.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "is"
 };
 

@@ -24,7 +24,7 @@ CRYSTAL_WAR = 7;
 ABYSSEA     = 8;
 
 -----------------------------------
---  San d'Oria
+--  San d'Oria - 0
 -----------------------------------
 
 A_SENTRY_S_PERIL                = 0;  -- ± --
@@ -119,7 +119,7 @@ THICK_SHELLS                    = 117; -- ± --
 FOREST_FOR_THE_TREES            = 118;
 
 -----------------------------------
---  Bastok
+--  Bastok - 1
 -----------------------------------
 
 THE_SIREN_S_TEAR                = 0;  -- ± --
@@ -215,7 +215,7 @@ SYNERGUSTIC_PURSUITS            = 89;
 THE_WONDROUS_WHATCHAMACALLIT    = 90;
 
 -----------------------------------
---  Windurst
+--  Windurst - 2
 -----------------------------------
 
 HAT_IN_HAND                     = 0;  -- + --
@@ -311,7 +311,7 @@ LURE_OF_THE_WILDCAT_WINDURST    = 94;
 BABBAN_NY_MHEILLEA              = 95;
 
 -----------------------------------
---  Jeuno
+--  Jeuno - 3
 -----------------------------------
 
 CREST_OF_DAVOI                  = 0;  -- + --
@@ -410,7 +410,7 @@ CHOCOBO_ON_THE_LOOSE            = 92;
 THE_GOBBIEBAG_PART_VII          = 93; -- + --
 THE_GOBBIEBAG_PART_VIII         = 94; -- + --
 LAKESIDE_MINUET                 = 95;
-THE_UNFINISHED_WALTZ            = 96;
+THE_UNFINISHED_WALTZ            = 96; -- ± --
 THE_ROAD_TO_DIVADOM             = 97;
 COMEBACK_QUEEN                  = 98;
 A_FURIOUS_FINALE                = 99;
@@ -445,7 +445,7 @@ ATOP_THE_HIGHEST_MOUNTAINS      = 129; -- + --
 WHENCE_BLOWS_THE_WIND           = 130; -- + --
 RIDING_ON_THE_CLOUDS            = 131; -- + --
 SHATTERING_STARS                = 132; -- + --
-NEW_WORLDS_AWAIT                = 133; -- + --
+NEW_WORLDS_AWAIT                = 133;
 EXPANDING_HORIZONS              = 134;
 BEYOND_THE_STARS                = 135;
 DORMANT_POWERS_DISLODGED        = 136;
@@ -463,7 +463,7 @@ VW_OP_118_BUBURIMU_SQUALL       = 169;
 PRELUDE_TO_PUISSANCE            = 170;
 
 -----------------------------------
---  Other Areas
+--  Other Areas - 4
 -----------------------------------
 
 RYCHARDE_THE_CHEF               = 0;  -- + --
@@ -523,7 +523,7 @@ BOMBS_AWAY                      = 96;
 MITHRAN_DELICACIES              = 97;
 
 -----------------------------------
---  Outlands --
+--  Outlands - 5
 -----------------------------------
 
 -- Kazham(1-15)
@@ -591,7 +591,7 @@ THE_SEARCH_FOR_GOLDMANE         = 200;            -- CoP Quest
 INDOMITABLE_SPIRIT              = 201; -- ± --
 
 -----------------------------------
---  Aht Urhgan
+--  Aht Urhgan - 6
 -----------------------------------
 
 KEEPING_NOTES                   = 0;
@@ -636,7 +636,7 @@ NOT_MEANT_TO_BE                 = 64; -- + --
 RAT_RACE                        = 66; -- + --
 
 -----------------------------------
---  Crystal War
+--  Crystal War - 7
 -----------------------------------
 
 LOST_IN_TRANSLOCATION            = 0;
@@ -647,8 +647,8 @@ REDEEMING_ROCKS                  = 4;
 THE_DAWN_OF_DELECTABILITY        = 5;
 A_LITTLE_KNOWLEDGE               = 6; -- + --
 THE_FIGHTING_FOURTH              = 7;
-SNAKE_ON_THE_PLAINS              = 8;
-STEAMED_RAMS                     = 9;
+SNAKE_ON_THE_PLAINS              = 8; -- + --
+STEAMED_RAMS                     = 9; -- + --
 SEEING_SPOTS                     = 10; -- + --
 THE_FLIPSIDE_OF_THINGS           = 11;
 BETTER_PART_OF_VALOR             = 12;
@@ -656,7 +656,7 @@ FIRES_OF_DISCONTENT              = 13;
 HAMMERING_HEARTS                 = 14;
 GIFTS_OF_THE_GRIFFON             = 15;
 CLAWS_OF_THE_GRIFFON             = 16;
-THE_TIGRESS_STIRS                = 17;
+THE_TIGRESS_STIRS                = 17; -- + --
 THE_TIGRESS_STRIKES              = 18;
 LIGHT_IN_THE_DARKNESS            = 19;
 BURDEN_OF_SUSPICION              = 20;
@@ -733,7 +733,7 @@ ENDINGS_AND_BEGINNINGS           = 97;
 AD_INFINITUM                     = 98;
 
 -----------------------------------
---  Abyssea
+--  Abyssea - 8
 -----------------------------------
 -- For some reason these did not match dat file order,
 -- had to adjust IDs >120 after using @addquest

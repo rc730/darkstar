@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: addallspells
--- auth: <Unknown> :: Modded by atom0s.
 -- desc: Adds all valid spells to the given target. If no target; then to the current player.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "s"
 };
 

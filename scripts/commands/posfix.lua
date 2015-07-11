@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: @posfix
--- auth: Link (as "resetplayer"), renamed by TeoTwawki.
 -- desc: Resets a targets account session and warps them to Jeuno.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 0,
+    permission = 1,
     parameters = "s"
 };
 

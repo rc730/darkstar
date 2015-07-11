@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: @delspell <spellID> <player>
--- auth: mvd1987, modified by TeoTwawki
 -- desc: Removes a spell from the players spell list.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-	permission = 5,
+	permission = 1,
 	parameters = "i"
 };
 

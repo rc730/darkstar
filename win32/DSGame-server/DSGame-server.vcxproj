@@ -195,6 +195,7 @@
     <ClInclude Include="..\..\src\common\lua\luaxlib.h" />
     <ClInclude Include="..\..\src\common\lua\lunar.h" />
     <ClInclude Include="..\..\src\common\malloc.h" />
+    <ClInclude Include="..\..\src\common\marshal\string.h" />
     <ClInclude Include="..\..\src\common\md52.h" />
     <ClInclude Include="..\..\src\common\mmo.h" />
     <ClInclude Include="..\..\src\common\recast\Recast.h" />
@@ -267,6 +268,7 @@
     <ClInclude Include="..\..\src\map\linkshell.h" />
     <ClInclude Include="..\..\src\map\lua\luautils.h" />
     <ClInclude Include="..\..\src\map\lua\lua_ability.h" />
+    <ClInclude Include="..\..\src\map\lua\lua_action.h" />
     <ClInclude Include="..\..\src\map\lua\lua_baseentity.h" />
     <ClInclude Include="..\..\src\map\lua\lua_battlefield.h" />
     <ClInclude Include="..\..\src\map\lua\lua_instance.h" />
@@ -503,6 +505,7 @@
     <ClCompile Include="..\..\src\map\linkshell.cpp" />
     <ClCompile Include="..\..\src\map\lua\luautils.cpp" />
     <ClCompile Include="..\..\src\map\lua\lua_ability.cpp" />
+    <ClCompile Include="..\..\src\map\lua\lua_action.cpp" />
     <ClCompile Include="..\..\src\map\lua\lua_baseentity.cpp" />
     <ClCompile Include="..\..\src\map\lua\lua_battlefield.cpp" />
     <ClCompile Include="..\..\src\map\lua\lua_instance.cpp" />

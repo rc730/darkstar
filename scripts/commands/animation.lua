@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: animation
--- auth: <Unknown> :: Modded by atom0s.
 -- desc: Sets the players current animation.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "i"
 };
 

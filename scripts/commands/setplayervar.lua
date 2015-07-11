@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: setplayervar
--- auth: Link, modified by TeoTwawki
 -- desc: Sets a variable on the target player.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "ssi"
 };
 
@@ -24,6 +23,7 @@ function onTrigger(player, target, variable, value)
     local targ = GetPlayerByName( target );
     if (targ ~= nil) then
         targ:setVar(variable, value);
+        player:PrintToPlayer( string.format( "Set %s to %u for %s", variable, value, target ) );
     else
         player:PrintToPlayer( string.format( "Player named '%s' not found!", target ) );
     end

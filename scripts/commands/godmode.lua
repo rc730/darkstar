@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: godmode
--- auth: bluekirby0 :: Modded by atom0s. (Thanks to Mishima for more buff ideas.)
 -- desc: Toggles god mode on the player; granting them several special abilities.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = ""
 };
 

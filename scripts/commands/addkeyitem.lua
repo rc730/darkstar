@@ -1,6 +1,5 @@
 ---------------------------------------------------------------------------------------------------
 -- func: @addkeyitem <ID> <player>
--- auth: <Unknown>, modified by TeoTwawki
 -- desc: Adds a key item to the player.
 ---------------------------------------------------------------------------------------------------
 
@@ -8,7 +7,7 @@ require("scripts/globals/keyitems");
 
 cmdprops =
 {
-    permission = 3,
+    permission = 1,
     parameters = "is"
 };
 

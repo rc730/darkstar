@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: addeffect
--- auth: Lautan
 -- desc: Adds the given effect to the given player.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "siii"
 };
 

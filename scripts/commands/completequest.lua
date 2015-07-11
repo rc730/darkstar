@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: @completequest <logID> <questID> <player>
--- auth: <Unknown>, modified by TeoTwawki
 -- desc: Completes the given quest for the GM or target player.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 3,
+    permission = 1,
     parameters = "iis"
 };
 
@@ -24,6 +23,7 @@ function onTrigger(player, logId, questId, target)
     local targ = GetPlayerByName(target);
     if (targ ~= nil) then
         targ:completeQuest( logId, questId );
+        player:PrintToPlayer( string.format( "Completed Quest for log %u with ID %u for %s", logId, questId, target ) );
     else
         player:PrintToPlayer( string.format( "Player named '%s' not found!", target ) );
         player:PrintToPlayer( "@completequest <logID> <questID> <player>" );

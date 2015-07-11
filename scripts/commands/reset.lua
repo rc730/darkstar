@@ -1,13 +1,12 @@
 -----------------------------------------------------------------------
 -- func: @reset <player>
--- auth: <Unknown> Modified by TeoTwawki
 -- desc: If no name is specified, resets your own JA timers.
 -- If a player name is specified, resets all of that players JA timers.
 -----------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 4,
+    permission = 1,
     parameters = "s"
 };
 

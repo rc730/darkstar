@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: getmobaction
--- auth: demolish
 -- desc: Prints mob's current action to the command user.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 5,
+    permission = 1,
     parameters = "i"
 };
 

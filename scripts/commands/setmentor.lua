@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: @setmentor <MentorMode> <target>
--- auth: TeoTwawki
 -- desc: 0 = Not a mentor, 1 = Unlocked but inactive, 2 = Unlocked & flag on.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 3,
+    permission = 1,
     parameters = "is"
 };
 

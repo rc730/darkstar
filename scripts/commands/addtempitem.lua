@@ -1,12 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 -- func: addtempitem
--- auth: Kjlotus
 -- desc: Adds a temp item to the players inventory.
 ---------------------------------------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 3,
+    permission = 1,
     parameters = "ii"
 };
 

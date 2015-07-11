@@ -63,6 +63,41 @@ This file is part of DarkStar-server source code.
 #include "ai_char_normal.h"
 #include "ai_pet_dummy.h"
 
+void trackArrowUsageForScavenge(CItemWeapon* PAmmo, CCharEntity* m_PChar)
+{
+    // Check if local has been set yet
+    if (m_PChar->GetLocalVar("ArrowsUsed") == 0)
+    {
+        // Local not set yet so set
+        m_PChar->SetLocalVar("ArrowsUsed", PAmmo->getID() * 10000 + 1);
+        //printf("\n arrows used: %i", m_PChar->GetLocalVar("ArrowsUsed"));
+    }
+    else
+    {
+        // Local exists now check if arrow used is same as last time
+        if ((floor(m_PChar->GetLocalVar("ArrowsUsed") / 10000)) == PAmmo->getID())
+        {
+            // Same arrow used as last time now check that arrows used do not go above 1980
+            if (floor(m_PChar->GetLocalVar("ArrowsUsed") % 10000) >= 1980)
+            {
+                // Do not increment arrows used past 1980
+                //printf("\n arrows used: %i", m_PChar->GetLocalVar("ArrowsUsed"));
+            }
+            else
+            {
+                // Safe to increment arrows used
+                m_PChar->SetLocalVar("ArrowsUsed", m_PChar->GetLocalVar("ArrowsUsed") + 1);
+                //printf("\n arrows used %i", m_PChar->GetLocalVar("ArrowsUsed"));
+            }
+        }
+        else
+        {
+            // Different arrow is being used so remake local
+            m_PChar->SetLocalVar("ArrowsUsed", PAmmo->getID() * 10000 + 1);
+            //printf("\n arrows used: %i", m_PChar->GetLocalVar("ArrowsUsed"));
+        }
+    }
+}
 
 /************************************************************************
 *																		*
@@ -90,6 +125,8 @@ CAICharNormal::CAICharNormal(CCharEntity* PChar)
 void CAICharNormal::CheckCurrentAction(uint32 tick)
 {
     m_Tick = tick;
+
+    CBattleEntity* PSelf = m_PChar;
 
     if ((m_ActionType != ACTION_NONE) && jailutils::InPrison(m_PChar))
     {
@@ -129,7 +166,11 @@ void CAICharNormal::CheckCurrentAction(uint32 tick)
 
     default: DSP_DEBUG_BREAK_IF(true);
     }
-    m_PChar->UpdateEntity();
+
+    if (m_PChar && PSelf->PBattleAI == this)
+    {
+        m_PChar->UpdateEntity();
+    }
 }
 
 void CAICharNormal::CheckActionAfterReceive(uint32 tick)
@@ -151,16 +192,17 @@ void CAICharNormal::CheckActionAfterReceive(uint32 tick)
 
     switch (m_ActionType)
     {
-    case ACTION_NONE:			  									break;
-    case ACTION_MAGIC_START:			ActionMagicStart();			break;
-    case ACTION_ENGAGE:					ActionEngage();				break;
-    case ACTION_DISENGAGE:				ActionDisengage();	 		break;
-    case ACTION_RANGED_START:			ActionRangedStart();		break;
-    case ACTION_ITEM_START:				ActionItemStart();			break;
-    case ACTION_CHANGE_TARGET:	        ActionChangeBattleTarget(); break;
-    case ACTION_WEAPONSKILL_START:		ActionWeaponSkillStart();	break;
-    case ACTION_JOBABILITY_START:		ActionJobAbilityStart();	break;
-    case ACTION_RAISE_MENU_SELECTION:	ActionRaiseMenuSelection(); break;
+    case ACTION_MAGIC_START:
+    case ACTION_ENGAGE:
+    case ACTION_DISENGAGE:
+    case ACTION_RANGED_START:
+    case ACTION_ITEM_START:
+    case ACTION_CHANGE_TARGET:
+    case ACTION_WEAPONSKILL_START:
+    case ACTION_JOBABILITY_START:
+    case ACTION_RAISE_MENU_SELECTION:
+        //call the classes (or subclasses) action handlers
+        CheckCurrentAction(tick);
 
     default: break;
     }
@@ -188,6 +230,11 @@ bool CAICharNormal::GetValidTarget(CBattleEntity** PBattleTarget, uint8 ValidTar
     if (PTarget == nullptr)
     {
         *PBattleTarget = m_PChar; //this prevents a nullptr crash when message is sent
+        return false;
+    }
+
+    if (m_PChar->StatusEffectContainer->GetConfrontationEffect() != PTarget->StatusEffectContainer->GetConfrontationEffect())
+    {
         return false;
     }
 
@@ -1096,6 +1143,7 @@ void CAICharNormal::ActionRangedFinish()
             {
                 if ((PAmmo->getQuantity() - 1) < 1) // ammo will run out after this shot, make sure we remove it from equip
                 {
+                    trackArrowUsageForScavenge(PAmmo, m_PChar);
                     uint8 slot = m_PChar->equip[SLOT_AMMO];
 		    uint8 loc = m_PChar->equipLoc[SLOT_AMMO];
                     charutils::UnequipItem(m_PChar, SLOT_AMMO);
@@ -1106,6 +1154,7 @@ void CAICharNormal::ActionRangedFinish()
                 }
                 else
                 {
+                    trackArrowUsageForScavenge(PAmmo, m_PChar);
                     charutils::UpdateItem(m_PChar, m_PChar->equipLoc[SLOT_AMMO], m_PChar->equip[SLOT_AMMO], -1);
                 }
                 m_PChar->pushPacket(new CInventoryFinishPacket());
@@ -1960,6 +2009,7 @@ void CAICharNormal::ActionJobAbilityFinish()
 
                 if ((PAmmo->getQuantity() - 1) < 1) // ammo will run out after this shot, make sure we remove it from equip
                 {
+                    trackArrowUsageForScavenge(PAmmo, m_PChar);
                     uint8 slot = m_PChar->equip[SLOT_AMMO];
 		    uint8 loc = m_PChar->equipLoc[SLOT_AMMO];
                     charutils::UnequipItem(m_PChar, SLOT_AMMO);
@@ -1968,6 +2018,7 @@ void CAICharNormal::ActionJobAbilityFinish()
                 }
                 else
                 {
+                    trackArrowUsageForScavenge(PAmmo, m_PChar);
                     charutils::UpdateItem(m_PChar, m_PChar->equipLoc[SLOT_AMMO], m_PChar->equip[SLOT_AMMO], -1);
                 }
 
@@ -1984,6 +2035,17 @@ void CAICharNormal::ActionJobAbilityFinish()
                     Action.messageID = 318;
                 }
             }
+            m_PChar->m_ActionList.push_back(Action);
+        }
+        else if (m_PJobAbility->getID() == ABILITY_SCAVENGE)
+        {
+            Action.ActionTarget = m_PBattleSubTarget;
+            Action.reaction = REACTION_NONE;
+            Action.speceffect = SPECEFFECT_RECOIL;
+            Action.animation = m_PJobAbility->getAnimationID();
+
+            int32 value = luautils::OnUseAbility(m_PChar, m_PBattleSubTarget, GetCurrentJobAbility(), &Action);
+
             m_PChar->m_ActionList.push_back(Action);
         }
         else
@@ -2543,6 +2605,12 @@ void CAICharNormal::ActionWeaponSkillFinish()
         {
             Action.param = damage;
             Action.messageID = 185; //damage ws
+
+            if (m_PBattleSubTarget->objtype == TYPE_MOB)
+            {
+                uint16 PWeaponskill = m_PWeaponSkill->getID();
+                luautils::OnWeaponskillHit(m_PBattleSubTarget, m_PChar, PWeaponskill);
+            }
         }
     }
     else

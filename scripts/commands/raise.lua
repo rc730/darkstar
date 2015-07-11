@@ -1,12 +1,11 @@
 -----------------------------------------------------------------------
 -- func: @raise <power> <player>
--- auth: TeoTwawki
 -- desc: Sends raise menu to GM or target player.
 -----------------------------------------------------------------------
 
 cmdprops =
 {
-    permission = 3,
+    permission = 1,
     parameters = "is"
 };
 
